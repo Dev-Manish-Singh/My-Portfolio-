@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title desc">
+  <title id="title">Manish Logo</title>
+  <desc id="desc">Gradient M icon with Manish wordmark</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="219" height="63" rx="14" fill="url(#bg)" stroke="rgba(139,92,246,0.45)"/>
+  <rect x="10" y="10" width="44" height="44" rx="10" fill="url(#bg)" stroke="rgba(139,92,246,0.45)"/>
+  <path d="M19 45V18h6.8L32 29l6.2-11h6.8v27h-6.8V30.8L32 41l-6.2-10.2V45z" fill="url(#grad)"/>
+  <text x="66" y="41" fill="url(#grad)" font-size="27" font-weight="700" font-family="Poppins, Arial, sans-serif" letter-spacing="1.2">MANISH</text>
+</svg>
