@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Manish Singh Web Developer in Mumbai | Shopify &amp; Freelance</title>
     <meta name="description" content="Manish Singh web developer in Mumbai offering freelance Shopify, WordPress, Laravel, PHP, and SEO-friendly responsive websites."/>
-    <meta name="keywords" content="manish singh web developer, manish singh portfolio, web developer in mumbai, freelance web developer in mumbai, hire web developer in mumbai, best web developer in mumbai, shopify developer in mumbai, wordpress developer in mumbai, laravel developer in mumbai, php developer in mumbai, full stack web developer, responsive web design, seo friendly website developer"/>
     <meta name="author" content="Manish Singh"/>
     <meta name="google-site-verification" content="mXAs2YQzadedZIWbyU24z_ajj7xUWe4g0pAmPZA3Y9s"/>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -28,29 +27,37 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Manish Singh",
-            "jobTitle": "Web Developer in Mumbai",
-            "url": "https://manish-singh.netlify.app/",
-            "email": "mailto:itwebdeveloper7@gmail.com",
-            "telephone": "+91 7039553407",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mumbai",
-                "addressCountry": "IN"
-            },
-            "knowsAbout": [
-                "Web Development",
-                "SEO",
-                "Shopify",
-                "WordPress",
-                "Laravel",
-                "PHP",
-                "JavaScript"
-            ],
-            "sameAs": [
-                "https://github.com/Dev-Manish-Singh",
-                "https://manish-singh.netlify.app/"
+            "@graph": [
+                {
+                    "@type": "ProfessionalService",
+                    "@id": "https://manish-singh.netlify.app/#business",
+                    "name": "Manish Singh Web Development",
+                    "url": "https://manish-singh.netlify.app/",
+                    "logo": "https://manish-singh.netlify.app/logo-manish.svg",
+                    "image": "https://manish-singh.netlify.app/profile.jpg",
+                    "email": "mailto:itwebdeveloper7@gmail.com",
+                    "telephone": "+91 7039553407",
+                    "description": "Freelance web development for Shopify, WordPress, Laravel and business websites across Mumbai.",
+                    "areaServed": ["Mumbai", "Kandivali", "Borivali", "Malad", "Goregaon", "Andheri", "Mira Road", "Thane", "Powai", "Bandra"],
+                    "priceRange": "₹₹",
+                    "sameAs": ["https://github.com/Dev-Manish-Singh"]
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://manish-singh.netlify.app/#person",
+                    "name": "Manish Singh",
+                    "jobTitle": "Freelance Web Developer",
+                    "url": "https://manish-singh.netlify.app/",
+                    "worksFor": {"@id": "https://manish-singh.netlify.app/#business"},
+                    "knowsAbout": ["Web Development", "SEO", "Shopify", "WordPress", "Laravel", "PHP", "JavaScript"]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://manish-singh.netlify.app/#website",
+                    "url": "https://manish-singh.netlify.app/",
+                    "name": "Manish Singh Web Developer in Mumbai",
+                    "publisher": {"@id": "https://manish-singh.netlify.app/#person"}
+                }
             ]
         }
     </script>
@@ -970,10 +977,20 @@
         }
 
         .service-card {
+            
             background: var(--dark-bg);
             border: 1px solid rgba(99, 102, 241, 0.2);
             border-radius: 18px;
             padding: 28px;
+        }
+
+        .area-links-grid a.service-card {
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        .area-links-grid a.service-card p {
+            color: var(--text-muted);
         }
 
         .service-card h3 {
@@ -1860,6 +1877,26 @@
                 <h3>Business-Focused Solutions</h3>
                 <p>Every page is built with speed, usability, and lead conversion in mind, not just visual design.</p>
             </article>
+        </div>
+    </section>
+
+    <!-- Mumbai Area Pages -->
+    <section class="area-section" id="areas-served">
+        <div class="section-title fade-in">
+            <h2>Web Developer Serving Mumbai Areas</h2>
+            <p>Local support for businesses looking for a freelance web developer, Shopify developer or WordPress developer near them.</p>
+        </div>
+        <div class="services-grid area-links-grid">
+            <a class="service-card fade-in" href="/areas/mumbai/"><h3>Web Developer in Mumbai</h3><p>Business websites, e-commerce and custom web apps across Mumbai.</p></a>
+            <a class="service-card fade-in" href="/areas/kandivali/"><h3>Web Developer in Kandivali</h3><p>Local website development and SEO support from Kandivali West.</p></a>
+            <a class="service-card fade-in" href="/areas/borivali/"><h3>Web Developer in Borivali</h3><p>Responsive websites and Shopify stores for Borivali businesses.</p></a>
+            <a class="service-card fade-in" href="/areas/malad/"><h3>Web Developer in Malad</h3><p>WordPress, Laravel and conversion-focused websites for Malad.</p></a>
+            <a class="service-card fade-in" href="/areas/goregaon/"><h3>Web Developer in Goregaon</h3><p>Fast business websites and maintenance for Goregaon companies.</p></a>
+            <a class="service-card fade-in" href="/areas/andheri/"><h3>Web Developer in Andheri</h3><p>Custom websites, Shopify and lead-generation pages for Andheri.</p></a>
+            <a class="service-card fade-in" href="/areas/mira-road/"><h3>Web Developer in Mira Road</h3><p>Affordable website development for Mira Road and Bhayandar.</p></a>
+            <a class="service-card fade-in" href="/areas/thane/"><h3>Web Developer in Thane</h3><p>SEO-ready business sites and web applications for Thane.</p></a>
+            <a class="service-card fade-in" href="/areas/powai/"><h3>Web Developer in Powai</h3><p>Modern websites and product interfaces for Powai startups.</p></a>
+            <a class="service-card fade-in" href="/areas/bandra/"><h3>Web Developer in Bandra</h3><p>Premium portfolio, business and e-commerce websites for Bandra.</p></a>
         </div>
     </section>
 
